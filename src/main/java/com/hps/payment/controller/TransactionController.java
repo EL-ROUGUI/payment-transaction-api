@@ -39,11 +39,7 @@ public class TransactionController {
 
     @GetMapping("/{id}")
     public ResponseEntity<Transaction> getTransactionById(@PathVariable Long id) {
-        try {
-            Transaction transaction = transactionService.getTransactionById(id);
-            return ResponseEntity.ok(transaction);
-        } catch (NoSuchElementException e) {
-            return ResponseEntity.notFound().build();
-        }
+        Transaction transaction = transactionService.getTransactionById(id);
+        return ResponseEntity.ok(transaction);
     }
 }
