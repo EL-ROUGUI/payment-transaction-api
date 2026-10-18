@@ -1,4 +1,4 @@
-package com.hps.payment.entity;
+package com.mehdi.payment.entity;
 
 import jakarta.persistence.Column;
 import jakarta.persistence.Entity;

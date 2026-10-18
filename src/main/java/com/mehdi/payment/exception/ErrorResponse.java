@@ -1,4 +1,4 @@
-package com.hps.payment.exception;
+package com.mehdi.payment.exception;
 
 import java.time.LocalDateTime;
 

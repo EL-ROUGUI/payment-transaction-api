@@ -1,7 +1,7 @@
-package com.hps.payment.controller;
+package com.mehdi.payment.controller;
 
-import com.hps.payment.entity.Transaction;
-import com.hps.payment.service.TransactionService;
+import com.mehdi.payment.entity.Transaction;
+import com.mehdi.payment.service.TransactionService;
 import jakarta.validation.Valid;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;

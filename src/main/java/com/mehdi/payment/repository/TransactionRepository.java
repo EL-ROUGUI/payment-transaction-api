@@ -1,6 +1,6 @@
-package com.hps.payment.repository;
+package com.mehdi.payment.repository;
 
-import com.hps.payment.entity.Transaction;
+import com.mehdi.payment.entity.Transaction;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Repository;
 

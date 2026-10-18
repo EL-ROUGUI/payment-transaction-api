@@ -1,7 +1,7 @@
-package com.hps.payment.service;
+package com.mehdi.payment.service;
 
-import com.hps.payment.entity.Transaction;
-import com.hps.payment.repository.TransactionRepository;
+import com.mehdi.payment.entity.Transaction;
+import com.mehdi.payment.repository.TransactionRepository;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
 

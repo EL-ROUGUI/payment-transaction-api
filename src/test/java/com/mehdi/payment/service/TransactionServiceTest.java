@@ -1,7 +1,7 @@
-package com.hps.payment.service;
+package com.mehdi.payment.service;
 
-import com.hps.payment.entity.Transaction;
-import com.hps.payment.repository.TransactionRepository;
+import com.mehdi.payment.entity.Transaction;
+import com.mehdi.payment.repository.TransactionRepository;
 import org.junit.jupiter.api.Test;
 import org.junit.jupiter.api.extension.ExtendWith;
 import org.mockito.InjectMocks;

@@ -1,9 +1,9 @@
-package com.hps.payment.controller;
+package com.mehdi.payment.controller;
 
 import com.fasterxml.jackson.databind.ObjectMapper;
-import com.hps.payment.entity.Transaction;
-import com.hps.payment.exception.GlobalExceptionHandler;
-import com.hps.payment.service.TransactionService;
+import com.mehdi.payment.entity.Transaction;
+import com.mehdi.payment.exception.GlobalExceptionHandler;
+import com.mehdi.payment.service.TransactionService;
 import org.junit.jupiter.api.Test;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.autoconfigure.web.servlet.WebMvcTest;
